@@ -2,9 +2,12 @@ let cardsList = [];
 let cardCounter = 0;
 let maxCards = 0;
 function createInteractions(text) {
-  let card = document.querySelector(`.card`);
-  document.querySelector(".flip").addEventListener("click", function () {
-    card.classList.toggle("flipped");
+  let card = document.querySelector(".card");
+  let flip = document.querySelectorAll(".flipButton");
+  flip.forEach((flipButton) => {
+    flipButton.addEventListener("click", function () {
+      card.classList.toggle("flipped");
+    });
   });
 
   document.querySelector(".say").addEventListener("click", () => {
@@ -16,14 +19,14 @@ function createCard(question, response, example) {
   let card = `
       <article class="card">
       <div class="sideA">
-          <h1>${question}</h1>
-          <button class="flip">Flip Card</button>
+          <h1 class="say">${question}</h1>
+          <button class="flipButton">Flip Card</button>
       </div>
       <div class="sideB">
-      <h1>${question}</h1>           
+      <h1 class="say">${question}</h1>           
           <p>${response}</p>
-          <p class="say">${example}</p>
-          <button class="flip">Flip Card</button>
+          <p>${example}</p>
+          <button class="flipButton">Flip Card</button>
       </div>
   </article>
   `;
@@ -33,7 +36,7 @@ function createCard(question, response, example) {
 // Función que permite dibujar una unica carta
 function drawCard(card) {
   document.querySelector(".deck").innerHTML = card;
-  let text = card.split('<p class="say">')[1].split("</p>")[0];
+  let text = card.split('<h1 class="say">')[1].split("</h1>")[0];
   createInteractions(text);
 }
 
@@ -66,7 +69,7 @@ function getRandomArbitrary(min, max) {
 function sayThePhrase(text) {
   const synth = window.speechSynthesis;
   const utterThis = new SpeechSynthesisUtterance(text);
-  utterThis.lang = "en-EN";
+  utterThis.lang = "it-IT";
   synth.speak(utterThis);
 }
 
