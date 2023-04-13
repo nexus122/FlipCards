@@ -1,5 +1,6 @@
 .deck {
     perspective: 1000px;
+    width: 100%;
   }
   
   .card {
@@ -31,7 +32,7 @@ article.card.flipped .sideA {
   .sideA,
   .sideB {
     position: relative;
-    width: 900px;
+    width: 100%;
     min-height: 300px;
     flex-direction: column;
     justify-content: space-between;

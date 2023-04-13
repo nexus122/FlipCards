@@ -10,8 +10,11 @@ function createInteractions(text) {
     });
   });
 
-  document.querySelector(".say").addEventListener("click", () => {
-    sayThePhrase(text);
+  let sayButtons = document.querySelectorAll(".say");
+  sayButtons.forEach((sayButton) => {
+    sayButton.addEventListener("click", () => {
+      sayThePhrase(text);
+    });
   });
 }
 
