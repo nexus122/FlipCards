@@ -58,4 +58,8 @@ article.card.flipped .sideA {
 
   .say{
     cursor: pointer;
+    -webkit-user-select: none;/* Chrome  y Safari */ 
+     -moz-user-select: none;/* Firefox */
+      -ms-user-select: none;/* IE 10+ */ 
+          user-select: none;
   }
