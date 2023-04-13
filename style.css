@@ -1,0 +1,55 @@
+.deck {
+    perspective: 1000px;
+  }
+  
+  .card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  
+  .card.flipped {
+    transform: rotateY(180deg);    
+  }
+  
+  .sideA{
+    display: block;
+  }
+
+  article.card.flipped .sideB {
+    display: block;
+}
+
+article.card.flipped .sideA {
+    display: none;
+}
+
+  .sideA,
+  .sideB {
+    position: relative;
+    width: 900px;
+    min-height: 300px;
+  }
+  
+  .sideB {
+    display: none;
+    transform: rotateY(180deg);
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .say{
+    cursor: pointer;
+  }

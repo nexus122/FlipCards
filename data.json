@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Hello",
+    "response": "Hola",
+    "example": "Hello, how are you? / ¡Hola, cómo estás?"
+  },
+  {
+    "question": "Goodbye",
+    "response": "Adiós",
+    "example": "Goodbye, see you soon. / Adiós, nos vemos pronto."
+  },
+  {
+    "question": "Yes",
+    "response": "Sí",
+    "example": "Yes, I would like a coffee. / Sí, quisiera un café."
+  },
+  {
+    "question": "No",
+    "response": "No",
+    "example": "No, I don't want to go out tonight. / No, no quiero salir esta noche."
+  },
+  {
+    "question": "Thank you",
+    "response": "Gracias",
+    "example": "Thank you for your help. / Gracias por tu ayuda."
+  },
+  {
+    "question": "Please",
+    "response": "Por favor",
+    "example": "Can you please pass me the salt? / ¿Puedes por favor pasarme la sal?"
+  },
+  {
+    "question": "Excuse me",
+    "response": "Perdón",
+    "example": "Excuse me, can you tell me where the nearest bank is? / Perdón, ¿puedes decirme dónde está el banco más cercano?"
+  },
+  {
+    "question": "I",
+    "response": "Yo",
+    "example": "I like to read books. / Me gusta leer libros."
+  },
+  {
+    "question": "You",
+    "response": "Tú / Usted",
+    "example": "Can you help me, please? / ¿Me puedes ayudar, por favor?"
+  },
+  {
+    "question": "He",
+    "response": "Él",
+    "example": "He is a doctor. / Él es doctor."
+  },
+  {
+    "question": "happy",
+    "response": "feliz",
+    "example": "I'm so happy to see you! (¡Estoy tan feliz de verte!)"
+  },
+  {
+    "question": "sad",
+    "response": "triste",
+    "example": "I'm feeling sad today. (Hoy me siento triste.)"
+  },
+  {
+    "question": "beautiful",
+    "response": "hermoso/a",
+    "example": "The sunset was so beautiful. (La puesta de sol era tan hermosa.)"
+  },
+  {
+    "question": "ugly",
+    "response": "feo/a",
+    "example": "I don't like that shirt, it's so ugly. (No me gusta esa camisa, es tan fea.)"
+  },
+  {
+    "question": "good",
+    "response": "bueno/a",
+    "example": "This food is really good. (Esta comida es realmente buena.)"
+  },
+  {
+    "question": "bad",
+    "response": "malo/a",
+    "example": "I had a bad day at work today. (Tuve un mal día en el trabajo hoy.)"
+  },
+  {
+    "question": "big",
+    "response": "grande",
+    "example": "That house is really big. (Esa casa es realmente grande.)"
+  },
+  {
+    "question": "small",
+    "response": "pequeño/a",
+    "example": "This apartment is so small. (Este apartamento es tan pequeño.)"
+  },
+  {
+    "question": "hot",
+    "response": "caliente",
+    "example": "The coffee is too hot to drink right now. (El café está demasiado caliente para beberlo ahora mismo.)"
+  },
+  {
+    "question": "cold",
+    "response": "frío/a",
+    "example": "I need to put on a jacket, it's so cold outside. (Necesito ponerme una chaqueta, hace mucho frío afuera.)"
+  }
+]
