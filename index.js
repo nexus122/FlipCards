@@ -2,9 +2,6 @@ let cardsList = [];
 let cardCounter = 0;
 let maxCards = 0;
 
-// Añadimos el hummer a nuestra card.
-var hammertime = new Hammer(document.querySelector("card"));
-
 function createInteractions(text) {
   let card = document.querySelector(".card");
   let flip = document.querySelectorAll(".flipButton");
@@ -89,18 +86,6 @@ document.querySelector(".backButton").addEventListener("click", () => {
 document.querySelector(".nextButton").addEventListener("click", () => {
   if (cardCounter == maxCards) return;
   cardCounter++;
-  drawCard(cardsList[cardCounter]);
-});
-
-hammertime.on("swipeleft", function (event) {
-  if (cardCounter == maxCards) return;
-  cardCounter++;
-  drawCard(cardsList[cardCounter]);
-});
-
-hammertime.on("swiperight", function (event) {
-  if (cardCounter == 0) return;
-  cardCounter--;
   drawCard(cardsList[cardCounter]);
 });
 
