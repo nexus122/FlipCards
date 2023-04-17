@@ -92,16 +92,4 @@ document.querySelector(".nextButton").addEventListener("click", () => {
   drawCard(cardsList[cardCounter]);
 });
 
-hammertime.on("swipeleft", function (event) {
-  if (cardCounter == 0) return;
-  cardCounter--;
-  drawCard(cardsList[cardCounter]);
-});
-
-hammertime.on("swiperight", function (event) {
-  if (cardCounter == maxCards) return;
-  cardCounter++;
-  drawCard(cardsList[cardCounter]);
-});
-
 init();
