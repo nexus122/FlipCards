@@ -2,9 +2,8 @@ let cardsList = [];
 let cardCounter = 0;
 let maxCards = 0;
 
-var elemento = document.querySelector("card");
 // Añadimos el hummer a nuestra card.
-var hammertime = new Hammer(elemento);
+var hammertime = new Hammer(document.querySelector("card"));
 
 function createInteractions(text) {
   let card = document.querySelector(".card");
