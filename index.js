@@ -2,6 +2,9 @@ let cardsList = [];
 let cardCounter = 0;
 let maxCards = 0;
 
+let elemento = document.getElementById("mi-elemento");
+let hammertime = new Hammer(elemento);
+
 function createInteractions(text) {
   let card = document.querySelector(".card");
   let flip = document.querySelectorAll(".flipButton");
