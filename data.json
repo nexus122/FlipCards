@@ -1,197 +1,158 @@
 [
   {
     "question": "Ciao, come stai?",
-    "response": "Hola, ¿cómo estás?",
-    "example": "Saludo común para decir hola y preguntar cómo está la persona."
+    "response": "Hola, ¿cómo estás?"
   },
   {
     "question": "Buongiorno, vorrei un cappuccino.",
-    "response": "Buenos días, quisiera un cappuccino.",
-    "example": "Una forma educada de pedir un cappuccino por la mañana."
+    "response": "Buenos días, quisiera un cappuccino."
   },
   {
     "question": "Buonasera, una tavola per due per favore.",
-    "response": "Buenas tardes, una mesa para dos, por favor.",
-    "example": "Una forma educada de pedir una mesa para dos en un restaurante."
+    "response": "Buenas tardes, una mesa para dos, por favor."
   },
   {
     "question": "Sì, vorrei un gelato alla fragola.",
-    "response": "Sí, quisiera un helado de fresa.",
-    "example": "Una forma educada de pedir un helado de fresa."
+    "response": "Sí, quisiera un helado de fresa."
   },
   {
     "question": "No, grazie.",
-    "response": "No, gracias.",
-    "example": "Una forma educada de rechazar algo que no se quiere o no se necesita."
+    "response": "No, gracias."
   },
   {
     "question": "Per favore, mi può dare indicazioni per la stazione?",
-    "response": "Por favor, ¿me puede dar indicaciones para la estación?",
-    "example": "Una forma educada de pedir direcciones para llegar a la estación de tren o autobús."
+    "response": "Por favor, ¿me puede dar indicaciones para la estación?"
   },
   {
     "question": "Grazie mille per il suo aiuto.",
-    "response": "Muchas gracias por su ayuda.",
-    "example": "Una forma educada de agradecer a alguien por su ayuda."
+    "response": "Muchas gracias por su ayuda."
   },
   {
     "question": "Mi scusi, dove si trova la fontana di Trevi?",
-    "response": "Disculpe, ¿dónde se encuentra la Fontana di Trevi?",
-    "example": "Una forma educada de pedir direcciones para llegar a la Fontana di Trevi en Roma."
+    "response": "Disculpe, ¿dónde se encuentra la Fontana di Trevi?"
   },
   {
     "question": "Scusi, parla inglese?",
-    "response": "Disculpe, ¿habla inglés?",
-    "example": "Una forma educada de preguntar si la persona habla inglés."
+    "response": "Disculpe, ¿habla inglés?"
   },
   {
     "question": "Quanto costa questo souvenir?",
-    "response": "¿Cuánto cuesta este recuerdo?",
-    "example": "Una forma educada de preguntar el precio de un souvenir en una tienda."
+    "response": "¿Cuánto cuesta este recuerdo?"
   },
   {
     "question": "Posso avere il conto, per favore?",
-    "response": "¿Me puede traer la cuenta, por favor?",
-    "example": "Una forma educada de pedir la cuenta en un restaurante."
+    "response": "¿Me puede traer la cuenta, por favor?"
   },
   {
     "question": "Mi può aiutare con la valigia?",
-    "response": "¿Me puede ayudar con la maleta?",
-    "example": "Una forma educada de pedir ayuda con las maletas en un hotel."
+    "response": "¿Me puede ayudar con la maleta?"
   },
   {
     "question": "Dov'è il bagno?",
-    "response": "¿Dónde está el baño?",
-    "example": "Una forma educada de preguntar dónde está el baño en un lugar público o privado."
+    "response": "¿Dónde está el baño?"
   },
   {
     "question": "Che ore sono?",
-    "response": "¿Qué hora es?",
-    "example": "Una forma educada de preguntar la hora actual."
+    "response": "¿Qué hora es?"
   },
   {
     "question": "Non parlo italiano molto bene, parla inglese?",
-    "response": "No hablo italiano muy bien, ¿habla inglés?",
-    "example": "Una forma educada de pedir que hablen en inglés si no se habla italiano muy bien."
+    "response": "No hablo italiano muy bien, ¿habla inglés?"
   },
   {
     "question": "Mi può consigliare un buon ristorante qui vicino?",
-    "response": "¿Me puede recomendar un buen restaurante cerca de aquí?",
-    "example": "Una forma educada de pedir recomendaciones para encontrar un buen restaurante cercano."
+    "response": "¿Me puede recomendar un buen restaurante cerca de aquí?"
   },
   {
     "question": "Quanto costa il biglietto per andare alla stazione centrale?",
-    "response": "¿Cuánto cuesta el billete para ir a la estación central?",
-    "example": "Una forma educada de preguntar el precio del billete de tren o autobús para llegar a la estación central."
+    "response": "¿Cuánto cuesta el billete para ir a la estación central?"
   },
   {
     "question": "Mi può dare un'indicazione su come arrivare al Colosseo?",
-    "response": "¿Me puede dar una indicación sobre cómo llegar al Coliseo?",
-    "example": "Una forma educada de pedir direcciones para llegar al Coliseo de Roma."
+    "response": "¿Me puede dar una indicación sobre cómo llegar al Coliseo?"
   },
   {
     "question": "Vorrei prenotare una camera per una notte, per favore.",
-    "response": "Me gustaría reservar una habitación para una noche, por favor.",
-    "example": "Una forma educada de reservar una habitación de hotel para una noche."
+    "response": "Me gustaría reservar una habitación para una noche, por favor."
   },
   {
     "question": "Mi può dare il suo numero di telefono?",
-    "response": "¿Me puede dar su número de teléfono?",
-    "example": "Una forma educada de pedir el número de teléfono de alguien para estar en contacto durante la visita a Italia."
+    "response": "¿Me puede dar su número de teléfono?"
   },
   {
     "question": "Quale è la stazione più vicina?",
-    "response": "¿Cuál es la estación más cercana?",
-    "example": "Una forma educada de preguntar por la estación de tren o autobús más cercana."
+    "response": "¿Cuál es la estación más cercana?"
   },
   {
     "question": "Mi può portare alla fermata dell'autobus?",
-    "response": "¿Me puede llevar a la parada del autobús?",
-    "example": "Una forma educada de pedir a alguien que lo lleve a la parada de autobús más cercana."
+    "response": "¿Me puede llevar a la parada del autobús?"
   },
   {
     "question": "Quanto tempo ci vuole per arrivare a...",
-    "response": "¿Cuánto tiempo se tarda en llegar a...?",
-    "example": "Una forma educada de preguntar cuánto tiempo se tarda en llegar a un lugar específico."
+    "response": "¿Cuánto tiempo se tarda en llegar a...?"
   },
   {
     "question": "Posso avere un bicchiere d'acqua, per favore?",
-    "response": "¿Puedo tener un vaso de agua, por favor?",
-    "example": "Una forma educada de pedir un vaso de agua en un restaurante o café."
+    "response": "¿Puedo tener un vaso de agua, por favor?"
   },
   {
     "question": "Posso pagare con la carta di credito?",
-    "response": "¿Puedo pagar con tarjeta de crédito?",
-    "example": "Una forma educada de preguntar si se acepta tarjeta de crédito como forma de pago."
+    "response": "¿Puedo pagar con tarjeta de crédito?"
   },
   {
     "question": "Posso avere una mappa della città?",
-    "response": "¿Puedo tener un mapa de la ciudad?",
-    "example": "Una forma educada de pedir un mapa de la ciudad para poder explorarla mejor."
+    "response": "¿Puedo tener un mapa de la ciudad?"
   },
   {
     "question": "Dove posso comprare i biglietti per il museo?",
-    "response": "¿Dónde puedo comprar los boletos para el museo?",
-    "example": "Una forma educada de preguntar dónde se pueden comprar los boletos para visitar un museo."
+    "response": "¿Dónde puedo comprar los boletos para el museo?"
   },
   {
     "question": "Quale è il miglior modo per raggiungere...",
-    "response": "¿Cuál es la mejor forma de llegar a...?",
-    "example": "Una forma educada de preguntar cuál es la mejor manera de llegar a un lugar específico."
+    "response": "¿Cuál es la mejor forma de llegar a...?"
   },
   {
     "question": "Posso avere un caffè, per favore?",
-    "response": "¿Puedo tener un café, por favor?",
-    "example": "Una forma educada de pedir un café en un café o restaurante."
+    "response": "¿Puedo tener un café, por favor?"
   },
   {
     "question": "Mi può consigliare un posto dove mangiare la pizza?",
-    "response": "¿Puede recomendarme un lugar donde comer pizza?",
-    "example": "Una forma educada de pedir recomendaciones para encontrar un buen lugar donde comer pizza en Italia."
+    "response": "¿Puede recomendarme un lugar donde comer pizza?"
   },
   {
     "question": "Dove posso trovare un bancomat?",
-    "response": "¿Dónde puedo encontrar un cajero automático?",
-    "example": "Una forma educada de preguntar por la ubicación de un cajero automático."
+    "response": "¿Dónde puedo encontrar un cajero automático?"
   },
   {
     "question": "Che ora è?",
-    "response": "¿Qué hora es?",
-    "example": "Una forma educada de preguntar la hora actual."
+    "response": "¿Qué hora es?"
   },
   {
     "question": "Quanto costa questo?",
-    "response": "¿Cuánto cuesta esto?",
-    "example": "Una forma educada de preguntar el precio de algo que quieres comprar."
+    "response": "¿Cuánto cuesta esto?"
   },
   {
     "question": "Mi può consigliare un ristorante tipico italiano?",
-    "response": "¿Puede recomendarme un restaurante típico italiano?",
-    "example": "Una forma educada de pedir recomendaciones para encontrar un buen restaurante italiano."
+    "response": "¿Puede recomendarme un restaurante típico italiano?"
   },
   {
     "question": "Quanto dista l'aeroporto?",
-    "response": "¿A qué distancia está el aeropuerto?",
-    "example": "Una forma educada de preguntar la distancia al aeropuerto más cercano."
+    "response": "¿A qué distancia está el aeropuerto?"
   },
   {
     "question": "Cosa mi consiglia di visitare in questa città?",
-    "response": "¿Qué me recomienda visitar en esta ciudad?",
-    "example": "Una forma educada de pedir recomendaciones sobre lugares interesantes que visitar en la ciudad."
+    "response": "¿Qué me recomienda visitar en esta ciudad?"
   },
   {
     "question": "Posso avere un'altra coperta?",
-    "response": "¿Puedo tener otra manta?",
-    "example": "Una forma educada de pedir una manta adicional en un hotel o alojamiento."
+    "response": "¿Puedo tener otra manta?"
   },
   {
     "question": "Che tipo di cucina offrite?",
-    "response": "¿Qué tipo de cocina ofrecen?",
-    "example": "Una forma educada de preguntar qué tipo de comida se sirve en un restaurante o café."
+    "response": "¿Qué tipo de cocina ofrecen?"
   },
   {
     "question": "Come posso arrivare all'aeroporto?",
-    "response": "¿Cómo puedo llegar al aeropuerto?",
-    "example": "Una forma educada de preguntar cómo llegar al aeropuerto desde el lugar en el que te encuentras."
+    "response": "¿Cómo puedo llegar al aeropuerto?"
   }
 ]

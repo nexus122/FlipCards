@@ -34,7 +34,7 @@ function createInteractions(text) {
   });
 }
 
-function createCard(question, response, example) {
+function createCard(question, response) {
   let card = `
       <article class="card">
       <div class="sideA">
@@ -44,7 +44,6 @@ function createCard(question, response, example) {
       <div class="sideB">
       <h1 class="say">${question}</h1>           
           <p>${response}</p>
-          <p>${example}</p>
           <button class="flipButton">Flip Card</button>
       </div>
   </article>
@@ -75,7 +74,7 @@ async function fetchData(url) {
 async function init() {
   let cards = await fetchData("./data.json");
   cards.forEach((data) => {
-    createCard(data.question, data.response, data.example);
+    createCard(data.question, data.response);
   });
   maxCards = cards.length - 1;
   drawCard(cardsList[cardCounter]);
