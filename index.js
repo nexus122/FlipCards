@@ -22,14 +22,14 @@ function createInteractions(text) {
   let hammertime = new Hammer(elemento);
 
   hammertime.on("swipeleft", function (event) {
-    if (cardCounter == 0) return;
-    cardCounter--;
+    if (cardCounter == maxCards) return;
+    cardCounter++;
     drawCard(cardsList[cardCounter]);
   });
 
   hammertime.on("swiperight", function (event) {
-    if (cardCounter == maxCards) return;
-    cardCounter++;
+    if (cardCounter == 0) return;
+    cardCounter--;
     drawCard(cardsList[cardCounter]);
   });
 }
