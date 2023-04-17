@@ -2,9 +2,6 @@ let cardsList = [];
 let cardCounter = 0;
 let maxCards = 0;
 
-let elemento = document.querySelector(".card");
-let hammertime = new Hammer(elemento);
-
 function createInteractions(text) {
   let card = document.querySelector(".card");
   let flip = document.querySelectorAll(".flipButton");
@@ -19,6 +16,21 @@ function createInteractions(text) {
     sayButton.addEventListener("click", () => {
       sayThePhrase(text);
     });
+  });
+
+  let elemento = document.querySelector(".card");
+  let hammertime = new Hammer(elemento);
+
+  hammertime.on("swipeleft", function (event) {
+    if (cardCounter == 0) return;
+    cardCounter--;
+    drawCard(cardsList[cardCounter]);
+  });
+
+  hammertime.on("swiperight", function (event) {
+    if (cardCounter == maxCards) return;
+    cardCounter++;
+    drawCard(cardsList[cardCounter]);
   });
 }
 
