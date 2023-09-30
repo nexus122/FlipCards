@@ -3,9 +3,11 @@ class Flashcard {
     this.cardsList = [];
     this.cardCounter = 0;
     this.maxCards = 0;
+    this.lenguaje = "it-IT"
+    this.init();
   }
 
-  createInteractions(text) {
+  createInteractions(text) {    
     let card = document.querySelector(".card");
     let flip = document.querySelectorAll(".flipButton");
 
@@ -39,7 +41,7 @@ class Flashcard {
     });
   }
 
-  createCard(question, response, example) {
+  createCard(question, response) {
     let card = `
       <article class="card">
         <div class="sideA">
@@ -49,7 +51,6 @@ class Flashcard {
         <div class="sideB">
           <h1 class="say">${question}</h1>           
           <p>${response}</p>
-          <p>${example}</p>
           <button class="flipButton">Flip Card</button>
         </div>
       </article>
@@ -77,7 +78,7 @@ class Flashcard {
     let cards = await this.fetchData("./data.json");
 
     cards.forEach((data) => {
-      this.createCard(data.question, data.response, data.example);
+      this.createCard(data.question, data.response);
     });
 
     this.maxCards = cards.length - 1;
@@ -98,7 +99,7 @@ class Flashcard {
   sayThePhrase(text) {
     const synth = window.speechSynthesis;
     const utterThis = new SpeechSynthesisUtterance(text);
-    utterThis.lang = "it-IT";
+    utterThis.lang = this.lenguaje;
     synth.speak(utterThis);
   }
 
@@ -119,6 +120,23 @@ class Flashcard {
 
 const flashcard = new Flashcard();
 
+document.querySelector(".nextButton").addEventListener("click", () => {
+  flashcard.handleNextButtonClick();
+});
+
+
 document.querySelector(".backButton").addEventListener("click", () => {
   flashcard.handleBackButtonClick();
 });
+
+
+function toggleModal(){
+  console.log("Salto")
+  let modal = document.querySelector("#modal-example")
+  if(modal.style.display == "flex"){
+    modal.style.display = "none"
+  }else{
+    modal.style.display = "flex"
+  }
+  
+}

@@ -63,3 +63,26 @@ article.card.flipped .sideA {
       -ms-user-select: none;/* IE 10+ */ 
           user-select: none;
   }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1em;
+  }
+
+  .button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 575px){
+    .button{
+      display: none;
+    }
+  }

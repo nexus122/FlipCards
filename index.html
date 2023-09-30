@@ -1,37 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=
-    , initial-scale=1.0"
-    />
-    
-    <title>FlipCards</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./style.css" />
-    <!-- Fontawersome -->
-    <script src="https://kit.fontawesome.com/dd6579785a.js" crossorigin="anonymous"></script>
 
-  </head>
-  <body>
-    <div class="container flex">
-    <button class="backButton">Anterior</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=
+    , initial-scale=1.0" />
+
+  <title>FlipCards</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Fontawersome -->
+  <script src="https://kit.fontawesome.com/dd6579785a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="container">
+  <article>
+  <!-- Introducción -->
+  <h1>Aprende Italiano</h1>
+  <p>¡Bienvenidos a nuestra página de tarjetas en italiano y español! Esta herramienta está diseñada para ayudarte a
+    aprender y mejorar tus habilidades en ambos idiomas de una manera divertida y efectiva. Con nuestras tarjetas,
+    podrás practicar vocabulario y frases clave en italiano y su equivalente en español.</p>
+
+  <!-- Pantalla interactiva -->
+  <div class="menu">
+    <button class="backButton button"><i class="fa-solid fa-chevron-right fa-rotate-180"></i></button>
     <div class="deck"></div>
-    <button class="nextButton">Siguiente</button>
+    <button class="nextButton button"><i class="fa-solid fa-chevron-right"></i></button>
   </div>
 
-    <!-- Hummer.js -->
-    <script src="./hummer.js"></script>
-    
-    <!-- Custom JS -->
-    <script src="./index.js"></script>
 
-  </body>
+
+  <button class="contrast" data-target="modal-example" onClick="toggleModal()">
+    ¿Necesitas Ayuda?
+  </button>
+
+  <!-- Hummer.js -->
+  <script src="./hummer.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./index.js"></script>
+</article>
+  <!-- Modal con instrucciones -->
+  <dialog id="modal-example">
+    <article>
+
+      <header>
+        <a href="#close"
+        aria-label="Close"
+        class="close"
+        data-target="modal-example"
+        onClick="toggleModal()">
+      </a>
+        Intrucciones del sitio
+      </header>
+      <p>
+        <b>Navegación de Tarjetas:</b>
+      <ul>
+        <li>
+          Utiliza los botones de "Atrás" y "Siguiente" en la parte inferior de la tarjeta para desplazarte por las
+          tarjetas.
+          Puedes hacer clic en "Atrás" para ver la tarjeta anterior y en "Siguiente" para avanzar a la siguiente.
+        </li>
+        <li>
+          <b>Gestos de Navegación (Opcional):</b>
+          Si prefieres una experiencia más interactiva, puedes utilizar gestos para desplazarte por las tarjetas.
+          Desliza
+          el dedo hacia la izquierda para ver la tarjeta anterior y desliza el dedo hacia la derecha para avanzar a la
+          siguiente.
+          Si estás en un dispositivo móvil o tablet con pantalla táctil, los gestos pueden ser una forma más intuitiva
+          de
+          explorar las tarjetas.
+        </li>
+
+        <li>
+          <b>Idioma de las Tarjetas:</b>
+          Cada tarjeta contiene una palabra o frase en italiano en un lado y su traducción al español en el otro lado.
+          Puedes practicar tu comprensión tanto en italiano como en español, volteando las tarjetas para verificar tus
+          respuestas.
+        </li>
+        <li>
+          <b>Practicar y Aprender:</b>
+          Tómate tu tiempo para estudiar cada tarjeta.
+          Intenta decir la traducción en el idioma opuesto antes de voltear la tarjeta para comprobar tu respuesta.
+        </li>
+        <li>
+          <b>Repeticiones:</b>
+          Puedes volver a repasar las tarjetas cuantas veces desees. La repetición es clave para fortalecer la memoria y
+          mejorar tus habilidades en ambos idiomas.
+        </li>
+        <li>
+          <b>Disfruta del Proceso:</b>
+          Aprender un nuevo idioma puede ser un desafío, pero también puede ser muy gratificante. ¡Diviértete y celebra
+          tu
+          progreso a medida que avanzas en las tarjetas!
+        </li>
+      </ul>
+
+      </p>
+    </article>
+  </dialog>
+</body>
+
 </html>
