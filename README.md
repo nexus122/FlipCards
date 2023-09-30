@@ -30,5 +30,5 @@ Si le das a el boton Flip se muestra el texto en español.
 - JS
 
 ## TODO
-- [ ] Que se pasen las tarjetas por gesto en lugar de por botones
+- [x] Que se pasen las tarjetas por gesto en lugar de por botones
 - [ ] Que se marquen las tarjetas que ya ha hecho
