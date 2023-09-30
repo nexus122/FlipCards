@@ -1,5 +1,9 @@
 # FlipCards
 Tarjetas para aprender idiomas.
+
+![image](https://github.com/nexus122/FlipCards/assets/22988550/9a57b189-8faa-47b9-95ef-986969ef3d42)
+
+
 Ahora mismo esta configurado con algunas frases en italiano que le he pedido a Chat gpt con este prompt:
 ````
 Siguiendo esta estructura:
